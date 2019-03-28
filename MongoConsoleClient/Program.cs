@@ -21,7 +21,8 @@ namespace MongoConsoleClient
             };
 
             collection.InsertOneAsync(document);
-
+            
+            
             Console.Read();
         }
     }
